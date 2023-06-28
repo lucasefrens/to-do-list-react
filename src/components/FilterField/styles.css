@@ -1,0 +1,21 @@
+.filter-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    height: 100%;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #181818;
+}
+
+.filter-field > .options {
+    display: flex;
+    gap: 3rem;
+}
+
+.filter-field > .options > div {
+    flex: 1;
+}
+
+.filter-field button {
+    margin-right: 1rem;
+}
